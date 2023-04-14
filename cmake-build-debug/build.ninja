@@ -1,0 +1,344 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: 2023DataStructuresApplications
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target 2023DataStructuresApplications
+
+
+#############################################
+# Order-only phony target for 2023DataStructuresApplications
+
+build cmake_object_order_depends_target_2023DataStructuresApplications: phony || CMakeFiles/2023DataStructuresApplications.dir
+
+build CMakeFiles/2023DataStructuresApplications.dir/main.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/main.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir
+
+build CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/EventHandler.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/GUI_Component/EventHandler.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/EventHandler.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component
+
+build CMakeFiles/2023DataStructuresApplications.dir/Helpers/Font.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/Helpers/Font.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/Helpers/Font.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/Helpers
+
+build CMakeFiles/2023DataStructuresApplications.dir/TextInput/Typing.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/TextInput/Typing.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/TextInput/Typing.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/TextInput
+
+build CMakeFiles/2023DataStructuresApplications.dir/TextInput/MultiText.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/TextInput/MultiText.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/TextInput/MultiText.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/TextInput
+
+build CMakeFiles/2023DataStructuresApplications.dir/Helpers/States.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/Helpers/States.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/Helpers/States.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/Helpers
+
+build CMakeFiles/2023DataStructuresApplications.dir/TextInput/Letter.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/TextInput/Letter.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/TextInput/Letter.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/TextInput
+
+build CMakeFiles/2023DataStructuresApplications.dir/TextInput/TextInput.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/TextInput/TextInput.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/TextInput/TextInput.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/TextInput
+
+build CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/Snapshot.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/GUI_Component/Snapshot.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/Snapshot.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component
+
+build CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/GUI_Component.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/GUI_Component/GUI_Component.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/GUI_Component.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component
+
+build CMakeFiles/2023DataStructuresApplications.dir/Helpers/KeyBoardShortCuts.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/Helpers/KeyBoardShortCuts.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/Helpers/KeyBoardShortCuts.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/Helpers
+
+build CMakeFiles/2023DataStructuresApplications.dir/Helpers/MouseEvents.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/Helpers/MouseEvents.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/Helpers/MouseEvents.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/Helpers
+
+build CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/History.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/GUI_Component/History.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/History.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component
+
+build CMakeFiles/2023DataStructuresApplications.dir/TextInput/Cursor.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/TextInput/Cursor.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/TextInput/Cursor.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/TextInput
+
+build CMakeFiles/2023DataStructuresApplications.dir/TextInput/InputBox.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/TextInput/InputBox.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/TextInput/InputBox.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/TextInput
+
+build CMakeFiles/2023DataStructuresApplications.dir/WordSort/Word.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/WordSort/Word.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/WordSort/Word.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/WordSort
+
+build CMakeFiles/2023DataStructuresApplications.dir/WordSort/FileReader.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/WordSort/FileReader.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/WordSort/FileReader.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/WordSort
+
+build CMakeFiles/2023DataStructuresApplications.dir/WordSort/WordSort.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/WordSort/WordSort.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/WordSort/WordSort.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/WordSort
+
+build CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/Item.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/DropDownMenu/Item.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/Item.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu
+
+build CMakeFiles/2023DataStructuresApplications.dir/Helpers/Position.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/Helpers/Position.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/Helpers/Position.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/Helpers
+
+build CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/ItemList.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/DropDownMenu/ItemList.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/ItemList.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu
+
+build CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/DDM_InputBox.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/DropDownMenu/DDM_InputBox.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/DDM_InputBox.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu
+
+build CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/DropDownMenu.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/DropDownMenu/DropDownMenu.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/DropDownMenu.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu
+
+build CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/TextInputSnapshot.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/GUI_Component/TextInputSnapshot.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/TextInputSnapshot.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/GUI_Component
+
+build CMakeFiles/2023DataStructuresApplications.dir/MenuBar/Menu.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/MenuBar/Menu.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/MenuBar/Menu.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/MenuBar
+
+build CMakeFiles/2023DataStructuresApplications.dir/MenuBar/MenuBar.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/MenuBar/MenuBar.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/MenuBar/MenuBar.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/MenuBar
+
+build CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileItem.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/FileTree/FileItem.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileItem.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/FileTree
+
+build CMakeFiles/2023DataStructuresApplications.dir/Helpers/Texture.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/Helpers/Texture.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/Helpers/Texture.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/Helpers
+
+build CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileNode.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/FileTree/FileNode.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileNode.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/FileTree
+
+build CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileTree.cpp.o: CXX_COMPILER__2023DataStructuresApplications_Debug /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/FileTree/FileTree.cpp || cmake_object_order_depends_target_2023DataStructuresApplications
+  DEP_FILE = CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileTree.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -std=gnu++14
+  INCLUDES = -isystem /opt/homebrew/include
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  OBJECT_FILE_DIR = CMakeFiles/2023DataStructuresApplications.dir/FileTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2023DataStructuresApplications
+
+
+#############################################
+# Link the executable 2023DataStructuresApplications
+
+build 2023DataStructuresApplications: CXX_EXECUTABLE_LINKER__2023DataStructuresApplications_Debug CMakeFiles/2023DataStructuresApplications.dir/main.cpp.o CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/EventHandler.cpp.o CMakeFiles/2023DataStructuresApplications.dir/Helpers/Font.cpp.o CMakeFiles/2023DataStructuresApplications.dir/TextInput/Typing.cpp.o CMakeFiles/2023DataStructuresApplications.dir/TextInput/MultiText.cpp.o CMakeFiles/2023DataStructuresApplications.dir/Helpers/States.cpp.o CMakeFiles/2023DataStructuresApplications.dir/TextInput/Letter.cpp.o CMakeFiles/2023DataStructuresApplications.dir/TextInput/TextInput.cpp.o CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/Snapshot.cpp.o CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/GUI_Component.cpp.o CMakeFiles/2023DataStructuresApplications.dir/Helpers/KeyBoardShortCuts.cpp.o CMakeFiles/2023DataStructuresApplications.dir/Helpers/MouseEvents.cpp.o CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/History.cpp.o CMakeFiles/2023DataStructuresApplications.dir/TextInput/Cursor.cpp.o CMakeFiles/2023DataStructuresApplications.dir/TextInput/InputBox.cpp.o CMakeFiles/2023DataStructuresApplications.dir/WordSort/Word.cpp.o CMakeFiles/2023DataStructuresApplications.dir/WordSort/FileReader.cpp.o CMakeFiles/2023DataStructuresApplications.dir/WordSort/WordSort.cpp.o CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/Item.cpp.o CMakeFiles/2023DataStructuresApplications.dir/Helpers/Position.cpp.o CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/ItemList.cpp.o CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/DDM_InputBox.cpp.o CMakeFiles/2023DataStructuresApplications.dir/DropDownMenu/DropDownMenu.cpp.o CMakeFiles/2023DataStructuresApplications.dir/GUI_Component/TextInputSnapshot.cpp.o CMakeFiles/2023DataStructuresApplications.dir/MenuBar/Menu.cpp.o CMakeFiles/2023DataStructuresApplications.dir/MenuBar/MenuBar.cpp.o CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileItem.cpp.o CMakeFiles/2023DataStructuresApplications.dir/Helpers/Texture.cpp.o CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileNode.cpp.o CMakeFiles/2023DataStructuresApplications.dir/FileTree/FileTree.cpp.o | /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib /opt/homebrew/lib/libsfml-audio.2.5.1.dylib /opt/homebrew/lib/libsfml-window.2.5.1.dylib /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/opt/homebrew/lib  /opt/homebrew/lib/libsfml-graphics.2.5.1.dylib  /opt/homebrew/lib/libsfml-audio.2.5.1.dylib  /opt/homebrew/lib/libsfml-window.2.5.1.dylib  /opt/homebrew/lib/libsfml-system.2.5.1.dylib
+  OBJECT_DIR = CMakeFiles/2023DataStructuresApplications.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2023DataStructuresApplications
+  TARGET_PDB = 2023DataStructuresApplications.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/paolooctoman/CLionProjects/2023DataStructuresApplications -B/Users/paolooctoman/CLionProjects/2023DataStructuresApplications/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/paolooctoman/CLionProjects/2023DataStructuresApplications/cmake-build-debug
+
+build all: phony 2023DataStructuresApplications
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake /opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake /opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
